@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drawing tool</title>
+	<script src="p5.js"></script>
+	<script src="sketch.js"></script>
+</head>
+<body>
+	<h2>Drawing tool</h2>
+	<div><a href="javascript:changeTool('pencil')">PENCIL</a> <a href="javascript:changeTool('pen')">PEN</a> <a href="javascript:changeTool('calligraphy')">CALLIGRAPHY</a> <a href="javascript:changeTool('pixel')">PIXEL</a> <a href="javascript:changeTool('circle')">CIRCLE</a> <a href="javascript:changeTool('neon')">NEON</a> </div>
+	<div><a href="javascript:changeWeight()"><img src="stroke-weight-grad.jpg" width="60" height="10"></a></div>
+	<div><a href="javascript:changeColour()"><img src="rgb-spectrum.png" height="40" width="765"></a></div>
+	<div><a href="javascript:changeValue()"><img src="value-grad.png" height="40" width="510"></a></div>
+	<div><a href="javascript:changeSat()"><img src="sat-grad.png" height="40" width="255"></a>Saturation is currently a work in progress. Thank you for understanding.</div>
+	<div><a href="javascript:changeOpacity()"><img src="opac-grad.png" height="40" width="255"></a></div>
+	<div id="p5"></div>
+	<div><a href="javascript:save()">SAVE</a></div>
+
+</body>
+</html>
